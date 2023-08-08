@@ -1,0 +1,34 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    /* background: #f3f3e6 url("/src/assets/bg-dot.png"); */
+}
+*{
+    box-sizing: border-box;
+}
+html, body{
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  body::-webkit-scrollbar {
+    width: 5px;              
+  }
+
+  body::-webkit-scrollbar-track {
+    background: rgb(247, 247, 247);       
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(196, 196, 196); 
+  }
