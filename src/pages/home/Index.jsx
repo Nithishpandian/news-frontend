@@ -39,7 +39,7 @@ const Home = () => {
             <div className=' hidden lg:flex flex-col items-center justify-start'>
                 {
                     data.map((news, i)=>{
-                        if((i>=finalLength) && (i<(finalLength+finalLength-1))){
+                        if((i>=finalLength) && (i<(finalLength+finalLength))){
                             // console.log("middle ", i);
                             return <MiddleNews
                                         title= {news.title}
@@ -50,7 +50,7 @@ const Home = () => {
                         } 
                     })
                 }
-                <Contact/>
+                {/* <Contact/> */}
             </div>
             <div className=' hidden lg:hidden min-[1380px]:flex sm:flex flex-col items-center justify-start'>
             {

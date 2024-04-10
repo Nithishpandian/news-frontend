@@ -50,7 +50,7 @@ const Health = () => {
                         } 
                     })
                 }
-                <Contact/>
+                {/* <Contact/> */}
             </div>
             <div className=' hidden lg:hidden min-[1380px]:flex sm:flex flex-col items-center justify-start'>
             {
